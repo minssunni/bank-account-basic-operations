@@ -1,7 +1,10 @@
-[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=4289399&assignment_repo_type=AssignmentRepo)
+# Bank Account Basic Operations
 
-# Assignment 1
+### Background
+A very simple codebase to familiarise myself and gain confidence in using simple Java classes and basic Java constructs.
 
-You will find the instructions to complete this assignment in Canvas. 
+This repository models some very basic operations on bank accounts including deposits, withdraws and transfers to another account.
 
+For withdraw and transfer operations, we need to make sure that the balance of the account is enough to perform the operations so it does not to go into overdraft.
 
+Each bank account has an associated transactions limit that specifies how many transactions may be performed in one day. If an account reaches this limit, we cannot perform additional transactions.
